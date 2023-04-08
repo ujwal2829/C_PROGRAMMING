@@ -24,7 +24,7 @@ void main()
     {
         // length if string
         case 1: printf("Enter the string\n");
-                gets(s1);
+                scanf("%s",s1);
                 i = length(s1);     // Function call to calculate the length
                 printf("Length = %d",i);
             break;
